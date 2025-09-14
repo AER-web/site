@@ -1,77 +1,175 @@
-/* Reset & base styles */
+/* -------------------------
+    Reset & Base Styles
+------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family: Alice;
+    font-family: Alice, serif;
     line-height: 1.6;
     background: #b47ee5;
     color: #333;
     padding: 20px;
 }
 
+/* -------------------------
+    Navigation
+------------------------- */
 nav {
     display: flex;
     justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
 }
 
 nav a {
     color: #000;
-    margin: 0 10px;
     text-decoration: none;
-    text-align: center;
+    font-weight: 500;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-  /* Header styles */
+/* -------------------------
+    Header
+------------------------- */
 header {
     width: 100%;
     background: #fff;
     color: black;
-    padding: 5px;
+    padding: 10px 20px;
     text-align: center;
+    border: 2px solid #910fb8;
     border-radius: 8px;
-    border-color: #910fb8;
-    border-style: solid;
-    border-width: 2px;
     margin-top: 10px;
 }
+
 header h1 {
-    padding: 0%;
     font-size: 26px;
     margin-bottom: 5px;
     font-style: italic;
 }
 
+/* -------------------------
+    Section Wrapper
+------------------------- */
 section {
-    background: white;
+    background: #fff;
     margin: 20px auto;
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.otherremedies-text {
-flex: 1;
-font-size: 14px;
-font-family: sans-serif;
-text-align: center;
+/* -------------------------
+    Remedies Item Cards
+------------------------- */
+.otherremedies-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-  /* Footer */
+.otherremedies-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Row inside each card */
+.otherremedies-item .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Images-only row (gallery style) */
+.otherremedies-item .row.images-only {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.otherremedies-item .row.images-only img {
+    max-width: 200px;
+}
+
+/* Text inside card */
+.otherremedies-item p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -------------------------
+    Images
+------------------------- */
+.otherremedies-img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    border: 2px solid #6a0dad;
+    background-color: #f9f0ff;
+}
+
+/* -------------------------
+    Misc Content Container
+------------------------- */
+.container {
+    margin-top: 20px;
+}
+
+.otherremedies-text {
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* -------------------------
+    Footer
+------------------------- */
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9em;
     color: black;
+}
+
+/* -------------------------
+    Responsive
+------------------------- */
+@media (max-width: 700px) {
+    .otherremedies-item .row {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .otherremedies-item .row.images-only {
+    flex-direction: column;
+    }
+
+    .otherremedies-img {
+    max-width: 100%;
+    }
 }
