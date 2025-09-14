@@ -25,7 +25,7 @@ export default function Monitoring() {
         </div>
 
         <div className="monitoring-item">
-            <h3>Step 2</h3>
+            <h3>Step 3</h3>
             <p>Check your body temperature with an electronic body temperature machine.</p>
         </div>
         </section>
