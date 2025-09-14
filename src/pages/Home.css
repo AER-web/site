@@ -1,0 +1,116 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Alice;
+    line-height: 1.6;
+    background: #b47ee5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: #fff;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    border-color: #910fb8;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+}
+header h1 {
+    padding: 0%;
+    font-size: 26px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+/* Section style */
+#home {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+#home h2 {
+    margin-bottom: 10px;
+}
+
+#home .container {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.home-text {
+flex: 1;
+font-size: 14px;
+font-family: sans-serif;
+}
+
+#contact {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+#contact .container {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.contact-text {
+flex: 1;
+font-size: 14px;
+font-family: sans-serif;
+text-align: center;
+}
+
+#disclaimer {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+#disclaimer h2 {
+    margin-bottom: 10px;
+}
+
+#disclaimer .container {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.disclaimer-text {
+flex: 1;
+font-size: 14px;
+font-family: sans-serif;
+text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #000;
+}
