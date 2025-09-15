@@ -15,7 +15,7 @@ export default function Sunlight() {
 
     <section>
             <h2>Sunlight</h2>
-            <p>Information about the role of sunlight in cancer and tumour reduction/elimination.</p>
+            <p>The natural sun is a powerful healer for cancer; Where possible expose the area that has cancer including your back to direct sunlight.</p>
     </section>
     
         <footer>
