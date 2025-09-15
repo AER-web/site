@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ReductionAndElimination.css';
 
 export default function ReductionAndElimination() {
@@ -9,15 +10,28 @@ export default function ReductionAndElimination() {
 
 <section id="reductionandelimination">
         <h2>Cancer & Tumour Reduction/Elimination</h2>
-        <div className="container">
-            <div className="reductionandelimination-text">
-            <p>ENTER Reduction And Elimination INFO HERE</p>
-        </div>
-        </div>
+        
+        <br></br>
+
+        <Link to="/sunlight" className="reductionandelimination-item">
+            <h3>Sunlight</h3>
+        </Link>
+
+        <Link to="/powders" className="reductionandelimination-item">
+            <h3>Powders</h3>
+        </Link>
+
+        <Link to="/liquids" className="reductionandelimination-item">
+            <h3>Liquids</h3>
+        </Link>
+
+        <Link to="/homemade" className="reductionandelimination-item">
+            <h3>Home-made Treatments & Techniques</h3>
+        </Link>
 </section>
 
 <footer>
-        <p>© 2025 A S Crawford. All rights reserved.</p>
+        <p>© 2025 All rights reserved.</p>
 </footer>
     </>
 );

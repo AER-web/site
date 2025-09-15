@@ -31,7 +31,7 @@ export default function Monitoring() {
         </section>
 
         <footer>
-        <p>© 2025 A S Crawford. All rights reserved.</p>
+        <p>© 2025 All rights reserved.</p>
         </footer>
     </>
     );

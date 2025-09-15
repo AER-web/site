@@ -7,23 +7,6 @@ export default function Home() {
         <h1>In Loving Memory of A. E. R</h1>
         </header>
 
-<section id="home">
-        <h2>Home</h2>
-        <div className="container">
-            <div className="home-text">
-            <p>The website will provide information on how Andre battled with her health condition and was successful in that, but ultimately, it was a side issue that eventually took her on another journey.</p>
-
-            <p>Whilst Andre did not write a journal on what she was doing for many years to combat the health condition, her long-term partner Andrew, helped her with her treatments over many years. It is the knowledge that Andrew gained whilst helping her with her treatments that will be featured here. </p>
-
-            <p>This information is being published in the hope that it will help others to see that there are alternative natural health remedies to the traditional western protocols that do work and that you may undertake if you so wish, or it may help others you know.</p>
-
-
-        </div>
-        </div>
-</section>
-
-<br></br>
-
 <section id="disclaimer">
     <h2>DISCLAIMER</h2>
     <div className="container3">
@@ -38,17 +21,20 @@ export default function Home() {
 
 <br></br>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <div className="container2">
-        <div className="contact-text">
-            <p>Email: <a href="mailto:andrew@capxsolutionsltd.com">andrew@capxsolutionsltd.com</a></p>
+<section id="home">
+        <h2>Home</h2>
+        <div className="container">
+            <div className="home-text">
+            <p>INSERT INTRO TEXT HERE.</p>
+
         </div>
-    </div>
+        </div>
 </section>
 
+<br></br>
+
 <footer>
-        <p>© 2025 A S Crawford. All rights reserved.</p>
+        <p>© 2025 All rights reserved.</p>
 </footer>
     </>
 );

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './CancerPrevention.css';
 
 export default function CancerPrevention() {
@@ -9,15 +10,32 @@ export default function CancerPrevention() {
 
 <section id="cancerprevention">
         <h2>Cancer Prevention</h2>
-        <div className="container">
-            <div className="cancerprevention-text">
-            <p>ENTER PREVENTION INFO HERE</p>
-        </div>
-        </div>
+
+        <br></br>
+
+        <Link to="/vitaminsandminerals" className="cancerprevention-item">
+            <h3>Vitamins And Minerals</h3>
+        </Link>
+
+        <Link to="/lifestyle" className="cancerprevention-item">
+            <h3>Lifestyle</h3>
+        </Link>
+
+        <Link to="/supplements" className="cancerprevention-item">
+            <h3>Supplements</h3>
+        </Link>
+
+        <Link to="/beverages" className="cancerprevention-item">
+            <h3>Beverages</h3>
+        </Link>
+
+        <Link to="/otherpractices" className="cancerprevention-item">
+            <h3>Other Practices</h3>
+        </Link>
 </section>
 
 <footer>
-        <p>© 2025 A S Crawford. All rights reserved.</p>
+        <p>© 2025 All rights reserved.</p>
 </footer>
     </>
 );
