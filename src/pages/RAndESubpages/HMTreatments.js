@@ -27,7 +27,7 @@ export default function HMTreatments() {
     </div>
     
     <section>
-            <h2>Home-made Treatments</h2>
+            <h2>Home Made Treatments</h2>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>

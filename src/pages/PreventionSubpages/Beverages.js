@@ -22,19 +22,28 @@ export default function Beverages() {
             
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Green tea  -</b> This type of tea contains bioactive compounds, notably polyphenols. These plant-based compounds are known for their antioxidant properties; Green tea compounds, particularly EGCG, may influence cancer development and progression through several biological mechanisms. One primary mechanism involves their antioxidant activity, helping neutralize free radicals that can cause cellular damage, including DNA mutations. </p>
+                    <p> <b>Green tea</b> contains bioactive compounds, notably polyphenols. These plant-based compounds are known for their
+                    antioxidant properties. Green tea compounds, particularly epigallocatechin gallate (EGCG), may influence cancer development
+                    and progression through several biological mechanisms. One primary mechanism involves their antioxidant activity, helping
+                    neutralise free radicals that can cause cellular damage, including DNA mutations. </p>
                     </div>
             </div>
 
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Bush tea  -</b> Sowa sap leaves, moringa, spirit weed, guinean and vervain boiled for 30 minutes and left for 12 hours then refrigerate and drink daily. </p>
+                    <p> <b>Bush tea</b> is a combination of 7 different plants and water, preferably distilled. These plants
+                    are <b>soursop leaves, moringa, spirit weed, guinean, bissy, sarsaparilla and vervain.</b> These should be boiled in a pot of water
+                    for 30 minutes and left overnight to cool. Then transfer to a glass and refrigerate. Drink this daily for 2-3 months, taking
+                    1-2 month breaks at a time.  </p>
                     </div>
             </div>
 
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Distilled water using a water distiller -</b> not bottled water neither tap water. To the distilled water add Celtic Grey Sea salt to add back the vitamins and minerals taken out during the distilling process. Or you can add potassium, magnesium and zinc to the distilled water. </p>
+                    <p> Regularly consume <b>distilled water using a water distiller</b> not bottled water neither tap water, as these contain unwanted chemicals.
+                    Add a pinch of <b>celtic grey sea salt</b> to the distilled water to add back the vitamins and minerals taken out during the distilling
+                    process. This type of salt serves as a natural electrolyte, containing up to 82 minerals. Alternatively, you can add potassium powder,
+                    magnesium powder and zinc to the distilled water. </p>
                     </div>
 
                     <div className='row-images-only'>

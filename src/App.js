@@ -74,13 +74,13 @@ function App() {
             className={`dropdown ${dropdownOpen ? 'open' : ''}`}
             onClick={() => setDropdownOpen(!dropdownOpen)}
           >
-            <span>Cancer & Tumour Reduction/Elimination ▾</span>
+            <span>Cancer And Tumour Reduction/Elimination ▾</span>
             <ul className="dropdown-menu">
               <li><Link to="/reductionandelimination">Overview</Link></li>
               <li><Link to="/sunlight">Sunlight</Link></li>
               <li><Link to="/powders">Powders</Link></li>
               <li><Link to="/liquids">Liquids</Link></li>
-              <li><Link to="/hmtreatments">Home-made Treatments</Link></li>
+              <li><Link to="/hmtreatments">Home Made Treatments</Link></li>
               <li><Link to="/techniques">Techniques</Link></li>
             </ul>
           </li>

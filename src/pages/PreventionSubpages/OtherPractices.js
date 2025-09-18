@@ -23,13 +23,14 @@ export default function OtherPractices() {
 
             <div className="otherpractices-item big-card">
                     <div className='row'>
-                    <p> Limit X-ray and cat scan exposure (<b>radiation</b>). Opt for MRI or ultrasound to reduce the radiation. </p>
+                    <p> Limit your <b>radiation exposure</b>, including x-ray and CT scans if possible. Instead, opt for MRI
+                        or ultrasounds instead, to reduce your risk of exposure. </p>
                     </div>
             </div>
 
             <div className="otherpractices-item big-card">
                     <div className='row'>
-                    <p> Massage <b>magnesium oil</b> into the body with distilled water using a water distiller. </p>
+                    <p> Homemade <b>magnesium oil</b> can be made using pure magnesium oxide crystals (epsom salt), dissolved in distilled water. This can be stored in a spray bottle and massaged on the body improving muscle soreness, stress relief, and sleep quality. The images below show a water distiller.  </p>
                     </div>
 
                     <div className='row-images-only'>
@@ -39,7 +40,7 @@ export default function OtherPractices() {
             </div>
             <div className="otherpractices-item big-card">
                     <div className='row'>
-                    <p> <b>Magnesium oxide and sodium bicarbonate</b> in the bath or tub with hot water for relaxation and detoxification. </p>
+                    <p>Mix <b>magnesium oxide and sodium bicarbonate</b> together, and sprinkle some in the bath, or a tub of hot water for relaxation and detoxification. See the image below of a tub for this use.</p>
                     </div>
 
                     <div className='row-images-only'>

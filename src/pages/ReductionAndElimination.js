@@ -9,7 +9,7 @@ export default function ReductionAndElimination() {
         </header>
 
 <section id="reductionandelimination">
-        <h2>Cancer & Tumour Reduction/Elimination</h2>
+        <h2>Cancer And Tumour Reduction/Elimination</h2>
         
         <br></br>
 
@@ -26,7 +26,7 @@ export default function ReductionAndElimination() {
         </Link>
 
         <Link to="/hmtreatments" className="reductionandelimination-item">
-            <h3>Home-made Treatments</h3>
+            <h3>Home Made Treatments</h3>
         </Link>
 
         <Link to="/techniques" className="reductionandelimination-item">

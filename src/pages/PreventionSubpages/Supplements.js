@@ -23,14 +23,20 @@ export default function Supplements() {
 
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Lugols Iodine, 15%</b>. This has many benefits such as may aid in cancer prevention; kills bacteria, viruses & fungi; boost thyroid function; detoxifies fluoride, bromide & chlorine; strengthens the immune system; natural antihistamine; supports brain health; promotes hair, skin & nail growth; protects against radiation exposure. </p>
+                    <p> <b>Lugols Iodine (15% strength)</b> has many benefits such as possibly aiding in cancer prevention, and killing bacteria,
+                    viruses & fungi. It is known to be able to boost thyroid function;,detoxify fluoride, bromide & chlorine and strengthen
+                    your immune system. It can also be used as a natural antihistamine, to supports brain health, promote healthy hair, skin
+                    & nail growth. In other cases, it can help to protect against radiation exposure. </p>
                     <img src={T1image} alt="T1" className="vitandmins-img" />
                     </div>
             </div>
 
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Himalayan bitter apricot kernal oil - </b> These have many benefits such as it has [seeds] Amygdalin for cancer and tumour treatment; rich in essential fatty acids, vitamins [E & A], and antioxidants; it has anti-inflammatory properties; skin hydration. </p>
+                    <p> <b>Himalayan bitter apricot kernel oil</b> can be found in a concentrated oil form, or as seeds. Its seeds contain amygdalin (B17)
+                    , which can be used for cancer and tumour treatments. The amygdalin is toxic in higher doses, so proceed with caution. 
+                    Bitter apricot kernel in both oil and seed forms are rich in essential fatty acids, vitamins (E & A), and antioxidants. It also has anti-inflammatory properties and promotes 
+                    skin hydration. </p>
                     </div>
 
                     <div className='row-images-only'>
@@ -41,7 +47,11 @@ export default function Supplements() {
 
             <div className="lifestyle-item big-card">
                     <div className='row'>
-                    <p> <b>Black seed oil -</b> This has many health benefits but for cancer it can slow the growth of cancer and division of cancer cells; Antioxidant properties: Black seed oil’s potent antioxidants may shield cells from oxidative harm and lower cancer risk; Black seed oil may boost immune function, supporting the body’s ability to detect and destroy cancer cells; it has anti diabetic properties; its compounds help reduce inflammation and oxidative stress, which are central to cancer progression; anti-inflammatory and antimicrobial properties make it effective for skin conditions like eczema and psoriasis; support liver and kidney function. </p>
+                    <p> <b>Black seed oil</b> has many health benefits but for cancer it can slow the growth of cancer and division of cancer cells. Its potent
+                    antioxidants may shield cells from oxidative harm and lower cancer risk, whilst boosting immune function, supporting the body’s ability to 
+                    detect and destroy cancer cells. The oil also has anti diabetic properties - Its compounds help reduce inflammation and oxidative stress, which
+                    are central to cancer progression. Anti-inflammatory and antimicrobial properties make it effective for skin conditions like eczema and psoriasis, 
+                    and to support liver and kidney function. </p>
                     <img src={T7image} alt="T7" className="vitandmins-img" />
                     </div>
             </div>
