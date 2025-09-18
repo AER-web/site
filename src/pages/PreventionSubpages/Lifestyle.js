@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Lifestyle.css';
 
 export default function Lifestyle() {
     return (

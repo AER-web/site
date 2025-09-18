@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Beverages.css';
 
 export default function Beverages() {
     return (

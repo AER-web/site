@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Sunlight.css';
 
 export default function Sunlight() {
     return (

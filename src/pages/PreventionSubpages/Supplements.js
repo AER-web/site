@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Supplements.css';
 
 export default function Supplements() {
     return (

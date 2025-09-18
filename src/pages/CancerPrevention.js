@@ -13,7 +13,7 @@ export default function CancerPrevention() {
 
         <br></br>
 
-        <Link to="/vitaminsandminerals" className="cancerprevention-item">
+        <Link to="/vitandmins" className="cancerprevention-item">
             <h3>Vitamins And Minerals</h3>
         </Link>
 

@@ -25,8 +25,12 @@ export default function ReductionAndElimination() {
             <h3>Liquids</h3>
         </Link>
 
-        <Link to="/homemade" className="reductionandelimination-item">
-            <h3>Home-made Treatments & Techniques</h3>
+        <Link to="/hmtreatments" className="reductionandelimination-item">
+            <h3>Home-made Treatments</h3>
+        </Link>
+
+        <Link to="/techniques" className="reductionandelimination-item">
+            <h3>Techniques</h3>
         </Link>
 </section>
 

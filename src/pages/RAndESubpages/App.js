@@ -11,11 +11,11 @@ import Lifestyle from './pages/PreventionSubpages/Lifestyle';
 import OtherPractices from './pages/PreventionSubpages/OtherPractices';
 import Supplements from './pages/PreventionSubpages/Supplements';
 import VitaminsAndMinerals from './pages/PreventionSubpages/VitaminsAndMinerals';
+import HMTechniques from './pages/RAndESubpages/HMTechiques';
 import HMTreatments from './pages/RAndESubpages/HMTreatments';
 import Liquids from './pages/RAndESubpages/Liquids';
 import Powders from './pages/RAndESubpages/Powders';
 import Sunlight from './pages/RAndESubpages/Sunlight';
-import Techniques from './pages/RAndESubpages/Techniques';
 import ReductionAndElimination from './pages/ReductionAndElimination';
 import Story from './pages/Story';
 
@@ -62,7 +62,7 @@ function App() {
             <span>Cancer Prevention ▾</span>
             <ul className="dropdown-menu">
               <li><Link to="/cancerprevention">Overview</Link></li>
-              <li><Link to="/vitandmins">Vitamins And Minerals</Link></li>
+              <li><Link to="/vitaminsandminerals">Vitamins And Minerals</Link></li>
               <li><Link to="/lifestyle">Lifestyle</Link></li>
               <li><Link to="/supplements">Supplements</Link></li>
               <li><Link to="/beverages">Beverages</Link></li>
@@ -81,7 +81,7 @@ function App() {
               <li><Link to="/powders">Powders</Link></li>
               <li><Link to="/liquids">Liquids</Link></li>
               <li><Link to="/hmtreatments">Home-made Treatments</Link></li>
-              <li><Link to="/techniques">Techniques</Link></li>
+              <li><Link to="/hmtechniques">Home-made Techniques</Link></li>
             </ul>
           </li>
 
@@ -96,7 +96,7 @@ function App() {
         <Route path="/about" element={<Story />} />
 
         <Route path="/cancerprevention" element={<CancerPrevention />} />
-        <Route path="/vitandmins" element={<VitaminsAndMinerals />} />
+        <Route path="/vitaminsandminerals" element={<VitaminsAndMinerals />} />
         <Route path="/lifestyle" element={<Lifestyle />} />
         <Route path="/supplements" element={<Supplements />} />
         <Route path="/beverages" element={<Beverages />} />
@@ -107,7 +107,7 @@ function App() {
         <Route path="/powders" element={<Powders />} />
         <Route path="/liquids" element={<Liquids />} />
         <Route path="/hmtreatments" element={<HMTreatments />} />
-        <Route path="/techniques" element={<Techniques />} />
+        <Route path="/hmtechniques" element={<HMTechniques />} />
 
         <Route path="/painrelief" element={<PainRelief />} />
         <Route path="/monitoring" element={<Monitoring />} />

@@ -20,7 +20,7 @@
     transform: translateY(-2px);
 }
 
-.liquids-item {
+.techniques-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -35,13 +35,13 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.liquids-item:hover {
+.techniques-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 /* Row inside each card */
-.liquids-item .row {
+.techniques-item .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,17 +49,17 @@
 }
 
 /* Images-only row (gallery style) */
-.liquids-item .row.images-only {
+.techniques-item .row.images-only {
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.liquids-item .row.images-only img {
+.techniques-item .row.images-only img {
     max-width: 200px;
 }
 
 /* Text inside card */
-.liquids-item p {
+.techniques-item p {
     flex: 1;
     font-size: 16px;
     line-height: 1.5;
@@ -68,7 +68,7 @@
 /* -------------------------
     Images
 ------------------------- */
-.liquids-img {
+.techniques-img {
     max-width: 220px;
     height: auto;
     border-radius: 8px;
@@ -87,17 +87,18 @@ footer {
 }
 
 @media (max-width: 700px) {
-    .liquids-item .row {
+    .techniques-item .row {
     flex-direction: column;
     text-align: center;
     }
 
-    .liquids-item .row.images-only {
+    .techniques-item .row.images-only {
     flex-direction: column;
     }
 
-    .liquids-img {
+    .techniques-img {
     max-width: 100%;
     }
 }
+
 

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './OtherPractices.css';
 
 export default function OtherPractices() {
     return (
