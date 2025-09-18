@@ -19,3 +19,84 @@
     background: #6a0dad;
     transform: translateY(-2px);
 }
+
+.beverages-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.beverages-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Row inside each card */
+.beverages-item .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Images-only row (gallery style) */
+.beverages-item .row.images-only {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.beverages-item .row.images-only img {
+    max-width: 200px;
+}
+
+/* Text inside card */
+.beverages-item p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -------------------------
+    Images
+------------------------- */
+.beverages-img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    border: 2px solid #6a0dad;
+    background-color: #f9f0ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .beverages-item .row {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .beverages-item .row.images-only {
+    flex-direction: column;
+    }
+
+    .beverages-img {
+    max-width: 100%;
+    }
+}

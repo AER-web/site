@@ -16,7 +16,27 @@ export default function Lifestyle() {
 
     <section>
             <h2>Lifestyle</h2>
-            <p>INSERT INFO HERE</p>
+
+            <div className="lifestyle-item big-card">
+                    <div className='row'>
+                        <p> <b>Intermittent Fasting -</b> Once a month 2 to 3 days. </p>
+                    </div>
+            </div>
+
+            <div className="lifestyle-item big-card">
+                    <div className='row'>
+                        <p>Eat <b>organic foods</b> where possible and check with a scanner what are the ingredients within the foods you buy; see “Yuka” from the app store or on Android/Goggle app store. </p>
+                    </div>
+            </div>
+
+            <div className="lifestyle-item big-card">
+                    <div className='row'>
+                        <p><b>Meditation and Exercise.</b></p>
+                    </div>
+            </div>
+
+
+            
     </section>
     
         <footer>
