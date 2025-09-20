@@ -32,56 +32,6 @@ header h1 {
     font-style: italic;
 }
 
-/* Section style */
-#home {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-    border-radius: 8px;
-}
-#home h2 {
-    margin-bottom: 10px;
-}
-
-#home .container {
-display: flex;
-align-items: center;
-gap: 20px;
-padding: 20px;
-flex-wrap: wrap;
-}
-
-.home-text {
-flex: 1;
-font-size: 14px;
-font-family: sans-serif;
-}
-
-#contact {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-    border-radius: 8px;
-}
-#contact h2 {
-    margin-bottom: 10px;
-}
-
-#contact .container {
-display: flex;
-align-items: center;
-gap: 20px;
-padding: 20px;
-flex-wrap: wrap;
-}
-
-.contact-text {
-flex: 1;
-font-size: 14px;
-font-family: sans-serif;
-text-align: center;
-}
-
 #disclaimer {
     margin: 20px auto;
     padding: 20px;

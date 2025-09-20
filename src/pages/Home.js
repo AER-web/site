@@ -21,18 +21,6 @@ export default function Home() {
 
 <br></br>
 
-<section id="home">
-        <h2>Home</h2>
-        <div className="container">
-            <div className="home-text">
-            <p>INSERT INTRO TEXT HERE.</p>
-
-        </div>
-        </div>
-</section>
-
-<br></br>
-
 <footer>
         <p>© 2025 All rights reserved.</p>
 </footer>

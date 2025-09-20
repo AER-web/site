@@ -26,14 +26,14 @@ export default function Techniques() {
 
             <div className="techniques-item big-card">
                     <div className='row'>
-                        <p> <b>Lymphatic drainage massage</b>; study the lymphatic gland locations and massage these areas and another person can massage these areas better with their hands and oil treatments.</p>
+                        <p> Regularly do <b>lymphatic drainage massages</b>. Study the lymphatic gland locations and massage these areas with your hands and oil treatments. Do this with another person’s help if necessary.</p>
                         <img src={T18image} alt="T18" className="techniques-img" />
                     </div>
             </div>
 
             <div className="techniques-item big-card">
                     <div className='row'>
-                        <p> Lymphatic massage with a <b>specialist machine</b>, around 10 to 20 minutes day. </p>
+                        <p>Perform lymphatic massages with a <b>specialist machine</b> such as the one shown in the image below, around 10 to 20 minutes day. </p>
                         <img src={E11image} alt="E11" className="techniques-img" />
                     </div>
             </div>
@@ -44,7 +44,7 @@ export default function Techniques() {
                         
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={E12image} alt="E12" className="techniques-img" />
                         <img src={E13image} alt="E13" className="techniques-img" />
                     </div>
@@ -52,7 +52,7 @@ export default function Techniques() {
 
             <div className="techniques-item big-card">
                     <div className='row'>
-                        <p> <b>Steam treatment</b> over the body and affected area using a steamer in an enclosed space. </p>
+                        <p>Perform a <b>steam treatment</b> over the body and affected areas using a steamer in an enclosed space.</p>
                         <img src={E14image} alt="E14" className="techniques-img" />
                     </div>
             </div>
@@ -66,7 +66,7 @@ export default function Techniques() {
 
             <div className="techniques-item big-card">
                     <div className='row'>
-                        <p> To maintain movement of the lymphatic gland during the day, apply <b>Kinesiology tape</b>. </p>
+                        <p> To maintain movement of the lymphatic glands during the day, apply <b>Kinesiology tape</b>. </p>
                         <img src={T27image} alt="T27" className="techniques-img" />
                     </div>
             </div>

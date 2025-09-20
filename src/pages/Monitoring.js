@@ -13,20 +13,17 @@ export default function Monitoring() {
         <h2>Monitoring</h2>
 
         <div className="monitoring-item">
-            <h3>Step 1</h3>
-            <p>Check blood/sugar levels regularly using a test kit.</p>
+            <p>Check your blood/sugar levels regularly using a <b>blood sugar test kit</b> like the one shown in the image below.</p>
             <img src={E21image} alt="E21" className="monitoring-img" />
         </div>
 
         <div className="monitoring-item">
-            <h3>Step 2</h3>
-            <p>Check heart rate and pulse regularly using a monitoring kit.</p>
+            <p>Check your heart rate and pulse regularly using a <b>blood monitoring kit</b> like the one shown in the image below.</p>
             <img src={E22image} alt="E22" className="monitoring-img" />
         </div>
 
         <div className="monitoring-item">
-            <h3>Step 3</h3>
-            <p>Check your body temperature with an electronic body temperature machine.</p>
+            <p>Check your body temperature with an <b>electronic body temperature machine</b>.</p>
         </div>
         </section>
 

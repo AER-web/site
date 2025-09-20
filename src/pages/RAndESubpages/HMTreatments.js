@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import T1image from '../../assets/treatment/T1.HEIC';
 import T11image from '../../assets/treatment/T11.HEIC';
 import T12image from '../../assets/treatment/T12.HEIC';
-//import T13image from '../../assets/treatment/T13.HEIC';
+import T13image from '../../assets/treatment/T13.png';
 import T14image from '../../assets/treatment/T14.HEIC';
 import T15image from '../../assets/treatment/T15.HEIC';
 import T16image from '../../assets/treatment/T16.HEIC';
@@ -31,70 +31,77 @@ export default function HMTreatments() {
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Lugois Iodine</b> 15% strength dropped and massaged onto the affected area; massage over the back and front of your body [affected area] with another persons help.</p>
+                        <p> Use a few drops of <b>Lugois Iodine</b> (15% strength) and massage this onto the affected area. Do this with another person’s help if necessary.</p>
                         <img src={T1image} alt="T1" className="hmtreatments-img" />
                     </div>
             </div>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Blackseed oil</b> massaged over the back and front of your body [affected area] with another persons help.</p>
+                        <p>Use a few drops of <b>Black Seed oil</b> and massage this onto the affected area. Do this with another person’s help if necessary. </p>
                         <img src={T7image} alt="T7" className="hmtreatments-img" />
                     </div>
             </div>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Himalayan bitter apricot kernal oil</b> massaged over the back and front of your body [affected area] with another persons help.</p>
+                        <p> Use a few drops of <b>Himalayan Bitter Apricot Kernel oil</b> and massage this onto the affected area. Do this with another
+                        person’s help if necessary.</p>
                         <img src={T2image} alt="T2" className="hmtreatments-img" />
                     </div>
             </div>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Ravintsara oil - </b> the main benefit of Ravintsara essential oil is its high content of 1,8-cineole, also known as eucalyptol. This compound
-                            has been shown to have powerful antiviral, antibacterial, and anti-inflammatory properties with its ability to fight off viruses and bacteria; It has a 
-                            powerful effect on the respiratory system, making it a great choice for those suffering from respiratory conditions such as coughs, colds, and asthma; great 
-                            tool to support the immune system. It can help to strengthen the body’s defences against viruses and bacteria, which is especially important during times of 
-                            illness It can help to reduce stress and anxiety, improve mood, and enhance mental clarity. <b>Use 2x drops of this.</b></p>
+                        <p>Mix 2x drops of <b>Ravintsara oil</b>, 2x drops of <b>Niaouli oil</b>, 2x drops of <b>Elemi oil</b>, 3x drops of <b>Himalayan Bitter Apricot oil</b> and
+                        4x drops of <b>Milk Thistle oil</b> in a glass jar or glass pipette bottle. Massage this onto the affected area with another
+                        person’s help if necessary. Benefits of each ingredient alongside pictures are shown below.</p>
+                    </div>
+
+                    <div className='row images-only'>
+                        <img src={T15image} alt="T15" className="hmtreatments-img" />
+                        <img src={T16image} alt="T16" className="hmtreatments-img" />
+                    </div>
+
+                    <div className='row'>
+                        <p> The main benefit of <b>Ravintsara essential oil</b> is its high content of 1,8-cineole, also known as eucalyptol. This compound has been shown to have powerful
+                        antiviral, antibacterial, and anti-inflammatory properties with its ability to fight off viruses and bacteria. It has a powerful effect on the respiratory system,
+                        making it a great choice for those suffering from respiratory conditions such as coughs, colds, and asthma - a great tool for the immune system. It can help to
+                        strengthen the body’s defences against viruses and bacteria, which is essential during times of illness. Other uses of Ravintsara can be to combat stress and
+                        anxiety, to improve ones mood and enhance mental clarity.</p>
                         <img src={T11image} alt="T11" className="hmtreatments-img" />
                     </div>
 
                     <div className='row'>
-                        <p> <b>Niaouli oil - </b> Boosts the immune system health; antibacterial, pain relief, wound healing; respiratory health. <b>Use 2x drops of this.</b></p>
+                        <p> <b>Niaouli oil</b> can help boost the immune system and improve respiratory health. It also provides antibacterial properties, can aid with
+                        pain relief and wound healing.</p>
                         <img src={T12image} alt="T12" className="hmtreatments-img" />
                     </div>
 
                     <div className='row'>
-                        <p> <b>Elemi oil - </b>Has antibacterial and anti-fungal properties; pain relief; the respiratory system; helps the digestive system; immune system health and skin health.<b>Use 2x drops of this.</b> [see photo T13]</p>
+                        <p> <b>Elemi oil</b> has antibacterial and anti-fungal properties. It is a good form of pain relief and helps the digestive system. As well as this, it can support the immune system, respiratory system, and skin health.</p>
+                        <img src={T13image} alt="T13" className="hmtreatments-img" />
                     </div>
 
                     <div className='row'>
-                        <p> <b>Bitter apricot oil</b>  Use x 3 drops of this.</p>
+                        <p> <b>Himalayan Bitter Apricot Kernel oil</b> is rich in essential fatty acids, vitamins (E & A), and antioxidants. It also has anti-inflammatory properties and promotes skin hydration.</p>
                         <img src={T2image} alt="T2" className="hmtreatments-img" />
                     </div>
 
                     <div className='row'>
-                        <p> <b>Milk thistle oil</b> has antioxidant and anti-inflammatory properties; liver health cleansing; improve diabetes; lowers cholesterol levels and is therefore good for the heart. <b>Use 4x drops of this.</b></p>
+                        <p> <b>Milk Thistle oil</b> has antioxidant and anti-inflammatory properties. It helps with liver health cleansing, improving diabetes, lowering cholesterol levels and is therefore good for the heart.</p>
                         <img src={T14image} alt="T14" className="hmtreatments-img" />
                     </div>
 
-                    <div className='row'>
-                        <p>Mix all above ingredients in a glass jar or pipette bottle. Massage over the back and front of your body [affected area] with another persons help.</p>
-                    </div>
-
-                    <div className='row-images-only'>
-                        <img src={T15image} alt="T15" className="hmtreatments-img" />
-                        <img src={T16image} alt="T16" className="hmtreatments-img" />
-                    </div>
+                    
             </div>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Raw organic Coconut oil </b> mixed with <b>Monmorillonite Nutri 100% pure naturally dried clay</b> and <b>Lugols Iodine, 15%</b>.</p>
+                        <p> Mix <b>Raw Organic Coconut oil </b>, <b>Monmorillonite Nutri 100% Pure Naturally Dried Clay</b> and <b>Lugols Iodine</b> (15% strength) together until it forms a paste. Apply this to affected areas when necessary.</p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={T1image} alt="T1" className="hmtreatments-img" />
                         <img src={T17image} alt="T17" className="hmtreatments-img" />
                     </div>
@@ -102,17 +109,17 @@ export default function HMTreatments() {
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Dimethyl Sulfoxide [DMSO] 99.99%</b>  in a spray bottle. Spray over the affected area, but it must be diluted with distilled water as it is very potent.	</p>
+                        <p> <b>Dimethyl Sulfoxide [DMSO]</b> (99.99%) may inhibit cancer growth. Use this in a glass spray bottle with distilled water and spray over the affected area. This must be diluted with distilled water as it is very potent.</p>
                         <img src={T19image} alt="T19" className="hmtreatments-img" />
                     </div>
             </div>
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p> <b>Milk Thistle oil, Black seed oil and Bitter apricot oil</b> massaged mixed together onto the affected area massage over the back and front of the body [affected area] with another person help.</p>
+                        <p> Mix <b>Milk Thistle oil, Black Seed oil</b> and <b>Himalayan Bitter Apricot Kernel oil</b>   together and massage this onto the affected area with another person’s help if necessary.</p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={T14image} alt="T14" className="hmtreatments-img" />
                         <img src={T7image} alt="T7" className="hmtreatments-img" />
                         <img src={T2image} alt="T2" className="hmtreatments-img" />
@@ -121,10 +128,9 @@ export default function HMTreatments() {
 
             <div className="hmtreatments-item big-card">
                     <div className='row'>
-                        <p>Use <b>castor oil</b> to reduce inflammation, cancer and shrink tumours. Massage this over the affected area.
-                        <b> Castor oil benefits - </b>It contains ricinoleic acid, which has shown promising anti-cancer properties; 
-                        it can shrink tumours; boosts the immune system; helps the lymphatic stay healthy; anti-fungal and anti-inflammatory properties; 
-                        helps wound healing;  </p>
+                        <p>Use <b>Castor oil</b> to reduce inflammation, cancer and shrink tumours. Massage this over the affected area with another person’s help if necessary. Castor oil contains ricinoleic 
+                        acid, which has shown to be a promising anti-cancer property. It can shrink tumours, boost the immune system and help the lymphatic system to stay healthy. The oil also contains 
+                        anti-fungal and anti-inflammatory properties, and helps with healing wounds.</p>
                         <img src={T26image} alt="T26" className="hmtreatments-img" />
                     </div>
             </div>

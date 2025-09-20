@@ -46,7 +46,7 @@ export default function Beverages() {
                     magnesium powder and zinc to the distilled water. </p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={E1image} alt="E1" className="beverages-img" />
                         <img src={E2image} alt="E2" className="beverages-img" />
                         <img src={T30image} alt="T30" className="beverages-img" />

@@ -22,11 +22,11 @@ export default function OtherRemedies() {
 
         <div className="otherremedies-item big-card">
             <div className='row'>
-            <p>For <b>colds, flu and chest infections</b> use Organic Oregano liquid. Dilute this with olive oil made 70/30 in a capsule size 0 or 00 capsules using a capsule machine. See photos for example of capsule machine.</p>
+            <p>For <b>colds, flu and chest infections</b> use organic Oregano liquid. Dilute this with olive oil with a minimum a ratio of 30/70, as the oregano oil is very potent. Fill capsule sizes 0 or 00 with this liquid by hand, or using a capsule machine. See photos for example of capsule machine.</p>
             <img src={T24image} alt="T24" className="otherremedies-img" />
             </div>
         <div className='row'>
-            <p><b>Oregano oil benefits</b> – has anti bacterial, anti fungal and antioxidant properties; an alternative to antibiotics; Fight Pneumonia and Bronchitis: fights MRSA and Staph Infection: Fight Intestinal Worms and Parasites.</p>
+            <p><b>Oregano oil</b> has anti bacterial, anti fungal and antioxidant properties. It's a great alternative to antibiotics, helps to fight pneumonia and bronchitis. It also fights MRSA and staph infections, intestinal worms and parasites.</p>
         </div>
         <div className='row images-only'>
             <img src={E9image} alt="E9" className="otherremedies-img" />
@@ -37,7 +37,7 @@ export default function OtherRemedies() {
 
         <div className="otherremedies-item big-card">
             <div className='row'>
-                <p>To clear the throat and chest for <b>chest infections</b> use a Nebulizer with Colloidal silver.</p>
+                <p>To clear the throat and chest for <b>chest infections</b>, use a Nebulizer with Colloidal silver. See image examples of these below.</p>
             </div>
 
             <div className='row images-only'>
@@ -48,11 +48,13 @@ export default function OtherRemedies() {
 
         <div className="otherremedies-item big-card">
             <div className='row'>
-            <p>Take organic Chlorella powder in a capsule size 0 or 00 capsule using a capsule machine.</p>
+            <p>Take organic Chlorella powder in capsule sizes 0 or 00 capsule using a capsule machine.</p>
             <img src={T28image} alt="T28" className="otherremedies-img" />
             </div>
         <div className='row'>
-            <p> <b>Chlorella benefits</b> – prevents cancer; detoxifies the body; boosts immune system; reduce high blood pressure; lowers cholesterol levels; improves blood sugar levels; aids weight loss; supports eye health; supports health during chemotherapy.</p>
+            <p> <b>Chlorella</b> has many benefits like preventing cancer, detoxifying the body and boosting the immune system. It is used for reducing
+            high blood pressure, lowering cholesterol levels, improving blood sugar levels and aiding in weight loss. Other uses of this are to support
+            eye health and support health during chemotherapy.</p>
         </div>
         <div className='row images-only'>
             <img src={E10image} alt="E10" className="otherremedies-img" />
@@ -63,7 +65,7 @@ export default function OtherRemedies() {
 
         <div className="otherremedies-item big-card">
             <div className='row'>
-                <p>Inhale Ravinsara oil or Niaouli oil for <b>colds, flus and chest infections.</b> Use a few drops in hot water with a towel over your head.</p>
+                <p>Inhale Ravintsara oil or Niaouli oil for <b>colds, flus and chest infections.</b> Use a few drops in hot water with a towel over your head.</p>
             </div>
 
             <div className='row images-only'>
@@ -74,11 +76,13 @@ export default function OtherRemedies() {
 
         <div className="otherremedies-item big-card">
             <div className='row'>
-            <p>Take organic Spirulina powder in a capsule size 0 or 00 capsule using a capsule machine.</p>
+            <p>Take organic Spirulina powder in capsule sizes 0 or 00 capsule using a capsule machine.</p>
             <img src={T29image} alt="T29" className="otherremedies-img" />
             </div>
         <div className='row'>
-            <p> <b>Spirulina benefits</b> – increases production of antibodies, infection-fighting proteins, and other cells that improve immunity and help ward off infection and chronic illnesses such as cancer ; detoxifies heavy metals; reduce high blood pressure; may lower cholesterol levels; boost exercise performance; protect eye health; aids weight loss.</p>
+            <p> <b>Spirulina</b> increases the production of antibodies, contains infection-fighting proteins, and other cells that improve immunity and help ward off
+            infection and chronic illnesses such as cancer. It is useful for detoxifying heavy metals, reducing high blood pressure and may lower cholesterol levels. 
+            Other uses of this are to boost exercise performance, protect eye health and aid in weight loss.</p>
         </div>
         <div className='row images-only'>
             <img src={E10image} alt="E10" className="otherremedies-img" />

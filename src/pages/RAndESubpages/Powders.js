@@ -25,7 +25,7 @@ export default function Powders() {
 
             <div className="powders-item big-card">
                         <div className='row'>
-                            <p><b>Fenbendazole powder</b> {'>'} 99% purity; taken in a vegetarian capsule with a capsule machine.</p>
+                            <p><b>Fenbendazole powder</b> {'>'} may have anticancer properties, by inhibiting glycolysis on cancer cells and preventing lactate build-up. Take this in a vegetarian capsule, made using a capsule machine.</p>
                         <img src={T8image} alt="T8" className="powders-img" />
                         </div>
 
@@ -36,14 +36,15 @@ export default function Powders() {
                         </div>
 
                         <div className='row'>
-                            <p> <b>CAUTION:</b> The amount to take depends upon your body mass. Visit the website <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12215191/">here</a> for more information on dosages and the powder.</p>
+                            <p> <b>CAUTION:</b> The amount to take depends upon your body mass. Visit the website <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12215191/">here</a> for more information.</p>
                         <img src={E9image} alt="E9" className="powders-img" />
                         </div>
             </div>
 
             <div className="powders-item big-card">
                         <div className='row'>
-                            <p><b>Methylsulfonylmethane [MSM] </b> taken in a vegetarian capsule with a capsule machine.</p>
+                            <p><b>Methylsulfonylmethane [MSM] </b> has shown potential in suppressing tumour growth and metastasis in various cancers.
+                            Take this in a vegetarian capsule, made up using a capsule machine.</p>
                         <img src={T9image} alt="T9" className="powders-img" />
                         </div>
 
@@ -54,7 +55,7 @@ export default function Powders() {
                         </div>
 
                         <div className='row'>
-                            <p> <b>CAUTION:</b> The amount to take depends upon your body mass. Visit the website <a href="https://www.cancertutor.com/msm/">here</a> for more information on dosages and the powder.</p>
+                            <p> <b>CAUTION:</b> The amount to take depends upon your body mass. Visit the website <a href="https://www.cancertutor.com/msm/">here</a> for more information.</p>
                         <img src={E9image} alt="E9" className="powders-img" />
                         </div>
             </div>

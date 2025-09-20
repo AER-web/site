@@ -91,16 +91,9 @@ section h2 {
     height: auto;
     border-radius: 8px;
     flex-shrink: 0;
-}
 
-.monitoring-img.E21 {
     border: 2px solid #6a0dad;
     background-color: #f9f0ff;
-}
-
-.monitoring-img.E22 {
-    border: 2px solid #008080;
-    background-color: #f0ffff;
 }
 
 .monitoring-text h3 {

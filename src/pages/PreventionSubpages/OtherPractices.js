@@ -33,7 +33,7 @@ export default function OtherPractices() {
                     <p> Homemade <b>magnesium oil</b> can be made using pure magnesium oxide crystals (epsom salt), dissolved in distilled water. This can be stored in a spray bottle and massaged on the body improving muscle soreness, stress relief, and sleep quality. The images below show a water distiller.  </p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={E1image} alt="E1" className="otherpractices-img" />
                         <img src={E2image} alt="E2" className="otherpractices-img" />
                     </div>
@@ -43,7 +43,7 @@ export default function OtherPractices() {
                     <p>Mix <b>magnesium oxide and sodium bicarbonate</b> together, and sprinkle some in the bath, or a tub of hot water for relaxation and detoxification. See the image below of a tub for this use.</p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={E15image} alt="E15" className="otherpractices-img" />
                         <img src={E16image} alt="E16" className="otherpractices-img" />
                     </div>

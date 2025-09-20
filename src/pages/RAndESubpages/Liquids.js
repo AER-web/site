@@ -20,7 +20,7 @@ export default function Liquids() {
 
             <div className="liquids-item big-card">
                 <div className='row'>
-                    <p> <b>Dimethyl Sulfoxide [DMSO]</b> 99.99% taken with distilled water. See website <a href="https://www.cancerdefeated.com/the-truth-about-dmso-and-cancer	">here</a> for more information. Be careful with the dose as it is very potent.</p>
+                    <p> <b>Dimethyl Sulfoxide [DMSO]</b> (99.99%) may inhibit cancer growth. You should take this with distilled water. See website <a href="https://www.cancerdefeated.com/the-truth-about-dmso-and-cancer	">here</a> for more information. <b>Be careful with the dose as it is very potent.</b></p>
                     <img src={T10image} alt="T10" className="liquids-img" />
                 </div>
             </div>

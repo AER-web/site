@@ -52,6 +52,7 @@
 .vitandmins-item .row.images-only {
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .vitandmins-item .row.images-only img {

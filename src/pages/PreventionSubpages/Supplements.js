@@ -39,7 +39,7 @@ export default function Supplements() {
                     skin hydration. </p>
                     </div>
 
-                    <div className='row-images-only'>
+                    <div className='row images-only'>
                         <img src={T2image} alt="T2" className="vitandmins-img" />
                         <img src={T3image} alt="T3" className="vitandmins-img" />
                     </div>

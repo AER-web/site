@@ -25,7 +25,9 @@ export default function PainRelief() {
         <h2>Pain Relief</h2>
         <div className="container">
             <div className="painrelief-text">
-            <p>These are examples of alternative pain relief methods to known medication such as Ibuprofen and  paracetamol. These common medications are mixed with other chemicals and over time, your body builds up resistance to them.</p>
+            <p>These are examples of alternative pain relief methods to known medication such as Ibuprofen and  paracetamol.
+                These common medications are mixed with other chemicals and over time, your body builds up resistance to them,
+                so it is useful to use alternative methods of pain relief where possible.</p>
         </div>
         </div>
 
@@ -33,7 +35,7 @@ export default function PainRelief() {
 
         <div className="painrelief-item big-card">
             <div className='row'>
-                <p>Organic <b>Turmeric</b> powder, <b>Ginger</b> powder and <b>Black pepper</b> powder in self made capsules.</p>
+                <p>Combine organic <b>turmeric</b> powder, <b>ginger</b> powder and <b>black pepper</b> powder in self made capsules.</p>
             </div>
 
             <div className='row images-only'>
@@ -43,7 +45,7 @@ export default function PainRelief() {
         </div>
 
         <div className='row'>
-                <p>Mix turmeric 4:1:1 with 1 black pepper and 1 ginger in a vegetarian size 0 or 00 capsule using a capsule machine. Take as and when needed to relieve the pain.</p>
+                <p>Mix turmeric in a ratio of 4:1:1 with 1 black pepper and 1 ginger in a vegetarian size 0 or 00 capsule using a capsule machine. Take as and when needed to relieve the pain.</p>
         </div>
 
             <div className='row images-only'>
